@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+.grad {
+  background: linear-gradient(0deg,#711f8d,#2b1e66);
+  height: 100vh;
+  background-position: center center;
+}
+.logo-white, .logo-magenta {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  left: 30%;
+  margin-top: 50%;
+  margin-bottom: 5%;
+}
+h5{
+  color: #566573;
+}
+.background-cars{
+  background-image: url(../assets/img/cars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
