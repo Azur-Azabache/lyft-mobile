@@ -11,4 +11,5 @@ Herramientas utilizadas:
 - jQuery 3.2.1
 
 Flujo de la app:
+
 ![Lyft](assets/img/flujo.png)
