@@ -20,7 +20,7 @@ $buttonNext.on('click', function() {
 
 //Evento para cuando se desea retroceder
 $buttonBackward.on('click', function() {
-   window.location.href = '../views/verify.html';
+   window.location.href = '../views/register.html';
  });
 
   });
