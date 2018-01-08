@@ -8,4 +8,8 @@ $(document).ready(function() {
   $signUp.on('click', function() {
     window.location.href = '../views/signup.html'
   });
+  // Al hacer click en el botón login
+  $login.on('click', function() {
+    window.location.href = '../views/login.html'
+  });
 });
