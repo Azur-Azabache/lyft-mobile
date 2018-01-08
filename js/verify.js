@@ -25,7 +25,12 @@ $input3.on('input', function() {
   var str = randomNumber.toString()
   if($input1.val() === str.charAt(0) && $input2.val() === str.charAt(1) && $input3.val() === str.charAt(2)) {
       $btnNext.prop('disabled', false);
-       window.location.href = '../views/email.html';
   }
 });
+
+// Evento para ir a la siguiente vista
+$btnNext.on('click', function() {
+window.location.href = '../views/email.html';
+});
+
 });

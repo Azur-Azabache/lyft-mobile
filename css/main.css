@@ -27,3 +27,10 @@ h5{
   background-position: center;
   background-attachment: fixed;
 }
+.check{
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  margin-top: 80%;
+  left: 30%;
+}
