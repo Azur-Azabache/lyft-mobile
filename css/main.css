@@ -34,3 +34,16 @@ h5{
   margin-top: 80%;
   left: 30%;
 }
+/*Tamaño tablet y desktop*/
+@media screen and (min-width:500px){
+.back{
+  background-image: url(../assets/img/web.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.row{
+  display: none;
+}
+}
